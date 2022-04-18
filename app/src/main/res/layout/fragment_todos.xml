@@ -6,9 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".view.fragments.todo.TodosFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Test" />
+<!--    <androidx.core.widget.NestedScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:paddingBottom="100dp"-->
+<!--        android:clipToPadding="false">-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_todos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+<!--    </androidx.core.widget.NestedScrollView>-->
 
 </FrameLayout>
